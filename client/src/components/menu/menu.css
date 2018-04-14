@@ -1,0 +1,16 @@
+.menu-container{
+  background-color: #ffffff;
+  opacity: 0.9;
+}
+
+.navbar-brand {
+  color: black;
+}
+
+#menu-name {
+  color: black;
+}
+
+#menu-delete {
+    color: red;
+}

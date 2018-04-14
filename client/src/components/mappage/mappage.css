@@ -1,0 +1,45 @@
+.mappage-container {
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+    text-align: center;
+}
+
+.mappage-row {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.mappage-map-responsive {
+    display: none;
+}
+
+.mappage-list-responsive {
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    .mappage-map {
+        display: none;
+    }
+
+    .mappage-list {
+        display: none;
+    }
+
+    .mappage-map-responsive {
+        display: block;
+    }
+    
+    .mappage-list-responsive {
+        display: block;
+        margin-top: 125%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .mappage-list-responsive {
+        display: block;
+        margin-top: 200%;
+    }
+}

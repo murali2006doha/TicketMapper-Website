@@ -1,0 +1,17 @@
+.event-container {
+    text-align: center;
+  }
+
+.event-title {
+  font-weight: 700;
+}
+
+.event-title,
+.event-info {
+  list-style-type: none;
+}
+
+.event-btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

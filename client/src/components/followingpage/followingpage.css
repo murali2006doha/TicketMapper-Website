@@ -1,0 +1,20 @@
+.followingpage-container {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../../images/results-bg.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/results-bg.jpeg);
+    min-height: 100vh;
+    min-width: 100vw;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.followingpage-following-status {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.followingpage-follow {
+    margin-top: 20px;
+}

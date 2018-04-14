@@ -1,0 +1,11 @@
+.eventslist-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.eventslist-events {
+    height: 80vh;
+    overflow: hidden; 
+    overflow-y: auto;
+}

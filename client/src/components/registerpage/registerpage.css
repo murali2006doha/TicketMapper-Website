@@ -1,0 +1,40 @@
+.register-container {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../../images/home-bg.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/home-bg.jpeg);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.register-display-4 {
+    position: static;
+    margin-top: 5%;
+}
+
+.register-inputs {
+    position: absolute;
+    left: 15%;
+    width: 70vw;
+}
+
+.register-name,
+.register-username,
+.register-password,
+.register-confirm-password,
+.register-dob {
+    margin-bottom: 25px;
+}
+
+.register-signup-btn,
+.register-signin-btn {
+    margin: 10px;
+}
+
+.alert{
+  position: absolute;
+  z-index: 1;
+}
